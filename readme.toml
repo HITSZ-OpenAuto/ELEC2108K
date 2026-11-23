@@ -1,97 +1,64 @@
-# 课程名称
-course_name = "课程中文名称"
-
-# 仓库类型: normal | multi-project
+course_name = "工程数学"
+course_code = "ELEC2108K"
 repo_type = "normal"
 
-# 课程代码 (用于检索)
-course_code = "CODE1234"
+[lecturers]
 
-# 课程简介
-description = """
-在这里填写课程的简要介绍。
-可以换行。
+[[lecturers.items]]
+name = "李赞吉 Chankil Lee （韩）"
+
+[[lecturers.items.reviews]]
+content = """
+老师口音很重，对我来说大部分都听不懂，但老师还是比较幽默的，偶尔还会在黑板上手写几个汉字。
+无考勤，最后几节课课后会有几次小测（课前会通知）。
 """
+author = { name = "61m", link = "https://github.com/61mo", date = "2026-11" }
 
-# ===== 章节列表 =====
+[[sections]]
+title = "学习建议"
+
+[[sections.items]]
+content = """
+- 少数由韩方授课、且只有理论课而没有实验课的课程之一。
+- 这门课像是高等数学和线性代数的结合与延伸，整门课几乎都围绕解微分方程展开。前两章与高数中的微分方程部分几乎完全一样；第三章开始讲高阶微分方程的解法，思路与前两章大同小异。第四章起引入线性代数和空间解析几何的知识，借助矩阵和特征值来解微分方程。第五章计算量较大，主要讲 Frobenius Method 和两类 Bessel Functions 在解微分方程中的应用。第六章讲用拉普拉斯变换解微分方程，并联系了一些电路方面的知识。
+"""
+author = { name = "61m", link = "https://github.com/61mo", date = "2026-11" }
+
 [[sections]]
 title = "考核方式"
 
-# 第一条内容
 [[sections.items]]
 content = """
-• 平时成绩: 30%
-• 期中考试: 30%
-• 期末考试: 40%
-"""
-# author 是可选的
-author = { name = "昵称A", date = "2025-03" }
+- 课后作业: 20%
+  - 包含前四章一次作业，五六章一次作业，还有最后几节课课后的小测。
+- 期中考试: 30%
+  - 会占用合适时间某节课程表上的工程数学课在正常上课教室进行期中考试，考前会提前通知。
+  - 共 3 道题，总计 60 分钟，前三章每章出一道题。
+  - 这 3 道题不会印在同一张试卷上，而是每张纸上印有一道题，严格按照每 20 分钟收发一次试卷，无法自由分配答题时间，所以也几乎无法提前交卷离开。
+- 期末考试: 50%
+  - 该门课程结课时间较早，25 级 11 月 23 日就进行了期末考试。
+  - 共 5 道题，老师在考前对每道题的考察内容都进行了较详细的说明，25 级题目安排如下（转述老师通知）：
+  1. Problem 1 (ch 4+6), Problem 2,3 (ch 5), problem 4 (chapter 3+6), problem 5 (ch 6)
+  2. The exam primarily covers Chapters 4, 5, and 6; however, Problem 4 incorporates content from Chapter 3 as well.
+  3. This course covers methods for solving differential equations, with a primary focus on finding solutions in the time domain (as presented in Chapters 1 through 3). Consequently, it is not possible to exclude Chapters 1–3 from the scope of the examination. Nevertheless, while content regarding time-domain solution methods has been largely omitted, only Problem 4 does include a task requiring the derivation of a solution in the time domain—specifically, the simplest type of such a solution.
+  4. The picture shows below（已转文字）:
 
-# 第二条内容（同一章节下多条）
-[[sections.items]]
-content = """
-• 2024年: 期末 60% + 平时 40%
+i) Laplace transform of useful functions (Problem 1):
+  $$\\cos\\omega t,\\; t\\cos\\omega t,\\; \\sin\\omega t,\\; t\\sin\\omega t,\\; e^{at},\\; te^{at}$$
+
+ii) Undetermined coefficient method in determining the particular solution (Problem 4)
+
+iii) LT of derivatives, LT of integral (Problem 5):
+  $$u(t) = \\int_{-\\infty}^{t} \\delta(\\tau)d\\tau$$
+  - 对于较难的 Problem 2 和 Problem 3，老师还在考前提供了对应的 ppt 资料专门供大家复习。
 """
-author = { name = "昵称B", date = "2024-01" }
+author = { name = "61m", link = "https://github.com/61mo", date = "2026-11" }
 
 [[sections]]
 title = "学习资料"
 
 [[sections.items]]
-content = """
-• 教材: 《书名》
-• 参考资料链接
-"""
+content = "<!-- TOML-SECTION: title=\"学习资料\" -->"
 
-# ===== 教师评价 (新 schema) =====
-# 顺序: lecturers.intro → lecturers.items → lecturers.summary
-[lecturers]
-
-# 教师简介 (在教师列表之前，可以多条)
-[[lecturers.intro]]
-content = """
-教师团队总体介绍。
-人数: 3人
-"""
-author = { name = "管理员", date = "2025-01" }
-
-[[lecturers.intro]]
-content = """
-研究方向: 机器学习、计算机视觉
-"""
-author = { name = "管理员", date = "2025-01" }
-
-# 教师列表
-[[lecturers.items]]
-name = "教师A"
-
-[[lecturers.items.reviews]]
-content = """
-教师评价内容。
-可以多行。
-"""
-author = { name = "昵称", link = "https://github.com/xxx", date = "2025-03" }
-
-[[lecturers.items.reviews]]
-content = "另一条评价"
-author = { name = "匿名", date = "2025-01" }
-
-[[lecturers.items]]
-name = "教师B"
-
-[[lecturers.items.reviews]]
-content = "教师B的评价"
-author = { name = "学生", date = "2024-12" }
-
-# 教师总结 (在教师列表之后，可以多条)
-[[lecturers.summary]]
-content = """
-教师团队总结。
-整体教学水平较高。
-"""
-author = { name = "管理员", date = "2025-01" }
-
-[[lecturers.summary]]
-content = """
-建议: 尽早选课，晚了好老师就没了
-"""
+[[sections.items]]
+content = "- 教材：Advanced Engineering Mathematics (Erwin Kreyszig, Herbert Kreyszig etc.)"

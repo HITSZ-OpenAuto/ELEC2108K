@@ -5,14 +5,15 @@
 
 <!-- TOML-LECTURERS: part="items" -->
 - 李赞吉 Chankil Lee （韩）
-  <!-- TOML-ITEM: id="review-教师A-1" -->
+  <!-- TOML-ITEM: id="review-李赞吉 Chankil Lee （韩）-1" -->
   - 老师口音很重，对我来说大部分都听不懂，但老师还是比较幽默的，偶尔还会在黑板上手写几个汉字。
   - 无考勤，最后几节课课后会有几次小测（课前会通知）。
-
-> 文 / [61m](https://github.com/61mo)，2026-11
-
+    > 文 / [61m](https://github.com/61mo)，2026-11
 
 ## 学习建议
+<!-- TOML-SECTION: title="学习建议" -->
+
+<!-- TOML-ITEM: id="item-学习建议-1" -->
 
 - 少数由韩方授课、且只有理论课而没有实验课的课程之一。
 - 这门课像是高等数学和线性代数的结合与延伸，整门课几乎都围绕解微分方程展开。前两章与高数中的微分方程部分几乎完全一样；第三章开始讲高阶微分方程的解法，思路与前两章大同小异。第四章起引入线性代数和空间解析几何的知识，借助矩阵和特征值来解微分方程。第五章计算量较大，主要讲 Frobenius Method 和两类 Bessel Functions 在解微分方程中的应用。第六章讲用拉普拉斯变换解微分方程，并联系了一些电路方面的知识。
@@ -49,11 +50,13 @@ iii) LT of derivatives, LT of integral (Problem 5):
 
 > 文 / [61m](https://github.com/61mo)，2026-11
 
-
 ## 学习资料
-
 <!-- TOML-SECTION: title="学习资料" -->
 
 <!-- TOML-ITEM: id="item-学习资料-1" -->
+
+<!-- TOML-SECTION: title="学习资料" -->
+
+<!-- TOML-ITEM: id="item-学习资料-2" -->
 
 - 教材：Advanced Engineering Mathematics (Erwin Kreyszig, Herbert Kreyszig etc.)
