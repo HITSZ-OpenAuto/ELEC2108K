@@ -37,9 +37,14 @@
   2. The exam primarily covers Chapters 4, 5, and 6; however, Problem 4 incorporates content from Chapter 3 as well.
   3. This course covers methods for solving differential equations, with a primary focus on finding solutions in the time domain (as presented in Chapters 1 through 3). Consequently, it is not possible to exclude Chapters 1–3 from the scope of the examination. Nevertheless, while content regarding time-domain solution methods has been largely omitted, only Problem 4 does include a task requiring the derivation of a solution in the time domain—specifically, the simplest type of such a solution.
   4. The picture shows below（已转文字）:
-i) Laplace transform of useful functions: \(\cos\omega t\), \(t\cos\omega t\), \(\sin\omega t\), \(t\sin\omega t\), \(e^{at}\), \(te^{at}\) (Problem 1)
+
+i) Laplace transform of useful functions (Problem 1):
+  $$\cos\omega t,\; t\cos\omega t,\; \sin\omega t,\; t\sin\omega t,\; e^{at},\; te^{at}$$
+
 ii) Undetermined coefficient method in determining the particular solution (Problem 4)
-iii) \(u(t) = \int_{-\infty}^{t} \delta(\tau)d\tau\), LT of derivatives, LT of integral (Problem 5)
+
+iii) LT of derivatives, LT of integral (Problem 5):
+  $$u(t) = \int_{-\infty}^{t} \delta(\tau)d\tau$$
   - 对于较难的 Problem 2 和 Problem 3，老师还在考前提供了对应的 ppt 资料专门供大家复习。
 
 > 文 / [61m](https://github.com/61mo)，2026-11
