@@ -10,14 +10,19 @@
     "hash": "6b88036f434494e1eb45fb683c6e869aa640b43d"
   },
   "README.md": {
-    "size": 1538,
-    "time": 1785649058,
-    "hash": "6b88036f434494e1eb45fb683c6e869aa640b43d"
+    "size": 3752,
+    "time": 1795448557,
+    "hash": "ad7f0a46fae399c9bb0f75477762d84858cf42eb"
   },
   "assignments/.gitkeep": {
     "size": 0,
     "time": 1785649058,
     "hash": "6b88036f434494e1eb45fb683c6e869aa640b43d"
+  },
+  "books/Advanced Engineering Mathematics (Erwin Kreyszig, Herbert Kreyszig etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf": {
+    "size": 22524929,
+    "time": 1795419445,
+    "hash": "9f8f6bebd986aabc83ad1d86b85a25e80365baf6"
   },
   "exams/.gitkeep": {
     "size": 0,
@@ -35,9 +40,9 @@
     "hash": "6b88036f434494e1eb45fb683c6e869aa640b43d"
   },
   "readme.toml": {
-    "size": 1996,
-    "time": 1785649058,
-    "hash": "6b88036f434494e1eb45fb683c6e869aa640b43d"
+    "size": 3699,
+    "time": 1795448557,
+    "hash": "ad7f0a46fae399c9bb0f75477762d84858cf42eb"
   },
   "slides/.gitkeep": {
     "size": 0,
